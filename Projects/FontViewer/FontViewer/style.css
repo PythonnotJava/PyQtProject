@@ -1,0 +1,25 @@
+QLabel {
+    background-color: rgb(220, 220, 220);
+    border: solid black 1px;
+    border-radius: 4px;
+    qproperty-alignment: 'AlignCenter';
+}
+
+RenewableTextEdit {
+    border-radius: 4px;
+    border: solid black 1px;
+}
+
+QTextBrowser{
+    background-color: rgb(220, 220, 220);
+    border: solid black 1px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal
+{
+    background-color: #605F5F;
+    min-width: 5px;
+    border-radius: 4px;
+}
+

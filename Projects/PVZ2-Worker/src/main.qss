@@ -1,0 +1,106 @@
+QPushButton {
+    color: gold;
+    background-color:rgb(30,75,10);
+    border-style:outset;
+    border-width : 2px;
+    border-color:rgb(10,45,110);
+    border-radius:10px;
+    padding : 4px;
+    font-size : 16px;
+}
+
+/* 鼠标按下时的效果 */
+QPushButton#pushButton:pressed {
+    background-color:rgb(40,85,20);
+    border-style:inset;
+    padding-left:6px;
+    padding-top:6px;
+}
+
+/* 按钮样式 */
+QPushButton:flat {
+    border:2px solid red;
+}
+
+/* 当按钮打开菜单时:ui->pushButton->setMenu(btnMenu) */
+QPushButton:open{
+    background-color:qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,stop: 0 #dadbde, stop: 1 #f6f7fa);
+}
+
+/* 子选择器:菜单 */
+QPushButton::menu-indicator {
+    image:url(:/images/close.png);
+
+    /* 去掉小三角号
+    image:none;*/
+
+    /* 绘制subcontrol 的参考矩形的位置 */
+    subcontrol-origin:padding;
+
+    /* 小三角的位置 */
+    subcontrol-position:bottom right;
+}
+
+QPushButton::menu-indicator:pressed,QPushButton::menu-indicator:open {
+    position:relative;
+    top:4px;
+    left:4px;
+}
+
+QLineEdit{
+    border-radius : 3px;
+    font-weight : 900
+}
+
+QLabel {
+    border-radius : 8px;
+    border : 5px solid darkblue;
+    padding-left : 6px;
+    font-size : 24px;
+    color : darkblue;
+    background-color : yellow;
+}
+
+QDialog{
+    background-color : skyblue;
+}
+
+
+/*QSpinBox*/
+QSpinBox {
+    padding-right: 15px; /* make room for the arrows */
+    border:1px solid black;
+    border-radius: 5px;
+    background: yellow;
+    font-size : 16px;
+    font-weight: 900;
+    padding-left : 15px;
+}
+
+
+QSpinBox::up-button:pressed {
+    margin-top:3px;
+}
+
+QSpinBox::down-button:pressed {
+    margin-bottom:3px;
+}
+
+QComboBox {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #000000;
+    font-style: italic;
+    font-weight: bold;
+
+    padding-left: 30px;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+

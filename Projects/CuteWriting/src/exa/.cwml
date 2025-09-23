@@ -1,0 +1,14 @@
+{"font":
+        {
+        "size": 72,
+        "family": "\u534e\u6587\u884c\u6977",
+        "color": [15, 7, 255, 255],
+        "weight": 50,
+        "style": 0
+            },
+    "theme": {
+        "bg": "src/img/bg.png"
+            },
+        }
+    "content" : "对于内容、图片内容，使用链接声明"
+    }

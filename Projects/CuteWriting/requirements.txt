@@ -1,0 +1,4 @@
+PyQt5 >= 5.15
+qtawesome == 1.0.3
+configobj == 5.0.6
+pyttsx3 == 2.90

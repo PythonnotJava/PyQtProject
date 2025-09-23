@@ -1,0 +1,223 @@
+{
+  "chart" : {
+    "text": "Chart Name",
+    "color" : "#ffffff",
+    "font": {
+      "size": 12,
+      "bold": true,
+      "weight": 900,
+      "family": "微软雅黑",
+      "italic": false,
+      "underline": false,
+      "strike_out": false,
+      "kerning": true,
+      "capitalization": "MixedCase",
+      "letter_spacing": 0.0,
+      "word_spacing": 0.0,
+      "stretch": "Unstretched",
+      "style_strategy": "PreferDefault"
+    },
+    "backgroundColor": "Skyblue",
+    "borderColor": "#ffffff",
+    "borderWidth": 10,
+    "borderRadius": 10,
+    "left": 10,
+    "right": 10,
+    "bottom": 10,
+    "top": 10,
+    // @list/int，长度为2或4的列表，或者整数值
+    "padding": [10, 10, 10, 10],
+    // @enum——不区分大小写
+    "theme": ["light", "blueCerulean", "dark", "brownSand", "blueNcs", "highContras", "blueIcy", "qt"],
+    "animationDuration": 1000,
+    // @enum——不区分大小写
+    "animationEasingCurve": [
+        "BezierSpline",
+        "CosineCurve",
+        "Custom",
+        "InBack",
+        "InBounce",
+        "InCirc",
+        "InCubic",
+        "InCurve",
+        "InElastic",
+        "InExpo",
+        "InOutBack",
+        "InOutBounce",
+        "InOutCirc",
+        "InOutCubic",
+        "InOutElastic",
+        "InOutExpo",
+        "InOutQuad",
+        "InOutQuart",
+        "InOutQuint",
+        "InOutSine",
+        "InQuad",
+        "InQuart",
+        "InQuint",
+        "InSine",
+        "Linear",
+        "OutBack",
+        "OutBounce",
+        "OutCirc",
+        "OutCubic",
+        "OutCurve",
+        "OutElastic",
+        "OutExpo",
+        "OutInBack",
+        "OutInBounce",
+        "OutInCirc",
+        "OutInCubic",
+        "OutInElastic",
+        "OutInExpo",
+        "OutInQuad",
+        "OutInQuart",
+        "OutInQuint",
+        "OutInSine",
+        "OutQuad",
+        "OutQuart",
+        "OutQuint",
+        "OutSine",
+        "SineCurve",
+        "TCBSpline"
+    ],
+    // @enum——不区分大小写
+    "animationOptions": ["NoAnimation", "GridAxisAnimations", "SeriesAnimations", "AllAnimations"]
+  },
+  "legend" : {
+    // @enum——不区分大小写
+    "align": ["top", "bottom", "left", "right"],
+    "backgroundColor": "white",
+    "borderColor": "black",
+    "borderWidth": 1,
+    "font": {
+      "size": 12,
+      "bold": true,
+      "weight": 900,
+      "family": "微软雅黑",
+      "italic": false,
+      "underline": false,
+      "strike_out": false,
+      "kerning": true,
+      "capitalization": "MixedCase",
+      "letter_spacing": 0.0,
+      "word_spacing": 0.0,
+      "stretch": "Unstretched",
+      "style_strategy": "PreferDefault"
+    },
+    "tooltip": "legend提示"
+  },
+  "xGrid" : {
+    "width" : 1,
+    "color" : "black",
+    // @enum——不区分大小写
+    "style" : ["NoPen", "SolidLine", "DashLine", "DashDotLine", "CustomDashLine", "MPenStyle"],
+    // @enum——不区分大小写
+    "cap" : ["FlatCap", "SquareCap", "RoundCap", "MPenCapStyle"],
+    // @enum——不区分大小写
+    "join" : ["MiterJoin", "BevelJoin", "RoundJoin", "MPenJoinStyle", "SvgMiterJoin"]
+  },
+   "yGrid" : {
+    "width" : 1,
+    "color" : "black",
+    // @enum——不区分大小写
+    "style" : ["NoPen", "SolidLine", "DashLine", "DashDotLine", "CustomDashLine", "MPenStyle"],
+    // @enum——不区分大小写
+    "cap" : ["FlatCap", "SquareCap", "RoundCap", "MPenCapStyle"],
+    // @enum——不区分大小写
+    "join" : ["MiterJoin", "BevelJoin", "RoundJoin", "MPenJoinStyle", "SvgMiterJoin"]
+  },
+  "xAxis" : {
+    "name": "X Value",
+    // @enum——不区分大小写
+    "type": ["value", "category", "log", "barCategory", "dateTime"],
+    // @list/range
+    "data": [1, 2, 3, 4, 5],
+    // @enum——不区分大小写
+    "position": ["top", "bottom", "left", "right"],
+    "min": 1,
+    "max": 5,
+    "interval": 1.0,
+    "lineStyle": {
+      "width" : 1,
+      "color" : "black",
+      // @enum——不区分大小写
+      "style" : ["NoPen", "SolidLine", "DashLine", "DashDotLine", "CustomDashLine", "MPenStyle"],
+      // @enum——不区分大小写
+      "cap" : ["FlatCap", "SquareCap", "RoundCap", "MPenCapStyle"],
+      // @enum——不区分大小写
+      "join" : ["MiterJoin", "BevelJoin", "RoundJoin", "MPenJoinStyle", "SvgMiterJoin"]
+    },
+    "labelStyle": {
+      "font" : {
+        "size": 12,
+        "bold": true,
+        "weight": 900,
+        "family": "微软雅黑",
+        "italic": false,
+        "underline": false,
+        "strike_out": false,
+        "kerning": true,
+        "capitalization": "MixedCase",
+        "letter_spacing": 0.0,
+        "word_spacing": 0.0,
+        "stretch": "Unstretched",
+        "style_strategy": "PreferDefault"
+      },
+      "rotate" : 45,
+      "color" : "#ffffff",
+      "backgroundColor" : "green"
+    }
+  },
+  "yAxis" : {
+    "name": "X Value",
+    // @enum——不区分大小写
+    "type": ["value", "category", "log", "barCategory", "dateTime"],
+    // @list/range
+    "data": [1, 2, 3, 4, 5],
+    // @enum——不区分大小写
+    "position": ["top", "bottom", "left", "right"],
+    "min": 1,
+    "max": 5,
+    "interval": 1.0,
+    "lineStyle": {
+      "width" : 1,
+      "color" : "black",
+      // @enum——不区分大小写
+      "style" : ["NoPen", "SolidLine", "DashLine", "DashDotLine", "CustomDashLine", "MPenStyle"],
+      // @enum——不区分大小写
+      "cap" : ["FlatCap", "SquareCap", "RoundCap", "MPenCapStyle"],
+      // @enum——不区分大小写
+      "join" : ["MiterJoin", "BevelJoin", "RoundJoin", "MPenJoinStyle", "SvgMiterJoin"]
+    },
+    "labelStyle": {
+      "font" : {
+        "size": 12,
+        "bold": true,
+        "weight": 900,
+        "family": "微软雅黑",
+        "italic": false,
+        "underline": false,
+        "strike_out": false,
+        "kerning": true,
+        "capitalization": "MixedCase",
+        "letter_spacing": 0.0,
+        "word_spacing": 0.0,
+        "stretch": "Unstretched",
+        "style_strategy": "PreferDefault"
+      },
+      "rotate" : 45,
+      "color" : "#ffffff",
+      "backgroundColor" : "green"
+    }
+  },
+  "series" : {
+    // @enum——不区分大小写
+    "type": ["line", "pie", "bar", "scatter", "boxplot", "candlestick", "polar"],
+    "name": "Series Name",
+    // @list
+    "data": [[1, 1.1], [2, 2.4], [3, 1.5], [4, 4.5], [5, 3.4]],
+    "color": "black",
+    "lineWidth": 5
+  }
+}
